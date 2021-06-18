@@ -1,0 +1,7 @@
+/* all variable will store in the variable.css  */
+@import url("./variable.css");
+
+/* all global css will store in the global css */
+@import url("./global.css");
+
+/* all the scoped css will store here in this file. */
