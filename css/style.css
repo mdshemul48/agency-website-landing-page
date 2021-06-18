@@ -5,3 +5,47 @@
 @import url("./global.css");
 
 /* all the scoped css will store here in this file. */
+
+/* ================== nav bar ============ */
+#header_area {
+  background-color: var(--background-color);
+}
+
+#header_area .main-menu {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#header_area .main-menu .nav-content .logo .logo-text {
+  font-size: 30px;
+  font-family: var(--poppins);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+#header_area .main-menu {
+  display: flex;
+  justify-content: space-between;
+}
+#header_area .main-menu .nav-content {
+  display: flex;
+}
+
+#header_area .main-menu .nav-content .nav-links {
+  margin: 0.7rem 7rem;
+}
+#header_area .main-menu .nav-content .nav-links .nav-link {
+  color: var(--secondary-color);
+  font-family: var(--poppins);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 6s ease;
+}
+
+#header_area .main-menu .nav-content .nav-links .nav-link + .nav-link {
+  margin-left: 2rem;
+}
+
+/* ====================end nav bar==============  */
