@@ -115,4 +115,58 @@
 
 /* ============end info section=========== */
 
+/* ================== client area =============== */
+#main-area .client-area {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#main-area .client-area .info-area {
+  width: 80%;
+}
+
+#main-area .client-area .info-area .top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-area .client-area .info-area .top-row .left-side > h2 {
+  color: var(--primary-color);
+  font: normal 600 30px var(--poppins);
+}
+#main-area .client-area .info-area .top-row p {
+  margin-top: 10px;
+  color: #7d8589;
+  font: normal 500 15px var(--poppins);
+}
+
+#main-area .client-area .info-area .top-row .right-side .star {
+  text-align: right;
+}
+#main-area .client-area .info-area .top-row .right-side .star i {
+  color: #ffca56;
+}
+
+#main-area .client-area .info-area .down-row .company-logo {
+  padding: 0 5%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20%;
+}
+#main-area .client-area .info-area .down-row .company-logo img {
+  height: 30px;
+  padding: 25px 40px;
+  border-radius: 10px;
+  transition: box-shadow 0.6s ease;
+}
+#main-area .client-area .info-area .down-row .company-logo img:hover {
+  background: white;
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+/* ================== client area =============== */
+
 /* ================ main area end =============== */
