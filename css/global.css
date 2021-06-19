@@ -3,8 +3,14 @@
 }
 
 .primary-button {
+  font-family: var(--poppins);
   background-color: var(--primary-color);
   color: whitesmoke !important;
   padding: 10px 20px;
   border-radius: 10px;
+  text-decoration: none;
+}
+
+.more-button {
+  padding: 15px 35px;
 }
