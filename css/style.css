@@ -64,11 +64,4 @@
   color: var(--primary-color);
 }
 
-#header_area .main-menu .nav-buttons .primary-button {
-  background-color: var(--primary-color);
-  color: whitesmoke;
-  padding: 8px 20px;
-  border-radius: 10px;
-}
-
 /* ====================end nav bar==============  */
