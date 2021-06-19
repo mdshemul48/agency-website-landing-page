@@ -65,3 +65,50 @@
 }
 
 /* ====================end nav bar==============  */
+
+/* ================ main area start=============== */
+
+/* ============info section=========== */
+#main-area .intro-section {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color);
+}
+
+#main-area .intro-section .info-section {
+  width: 80%;
+  display: flex;
+}
+
+#main-area .intro-section .info-section .text-area {
+  font: normal 500 14px/21px var(--poppins);
+  padding: 100px 200px 0 0;
+}
+
+#main-area .intro-section .info-section .text-area .welcome-text {
+  font: normal 400 20px/21px var(--poppins);
+  color: #687690;
+}
+
+#main-area .intro-section .info-section .text-area > h1 {
+  margin-top: 10px;
+  font: normal 800 75px/90px var(--poppins);
+  color: var(--primary-color);
+}
+#main-area .intro-section .info-section .text-area .intro-paragraph {
+  font: normal 400 20px/30px var(--poppins);
+  color: var(--secondary-color);
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+#main-area .intro-section .info-section .text-area .more-button {
+  padding: 15px 35px;
+}
+#main-area .intro-section .info-section .image-area {
+  margin-bottom: -4px;
+  padding-right: 30px;
+}
+
+/* ============end info section=========== */
+
+/* ================ main area end =============== */
