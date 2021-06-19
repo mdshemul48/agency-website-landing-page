@@ -95,15 +95,19 @@
   font: normal 800 75px/90px var(--poppins);
   color: var(--primary-color);
 }
+
 #main-area .intro-section .info-section .text-area .intro-paragraph {
   font: normal 400 20px/30px var(--poppins);
   color: var(--secondary-color);
   margin-top: 10px;
   margin-bottom: 40px;
 }
+
 #main-area .intro-section .info-section .text-area .more-button {
   padding: 15px 35px;
+  text-decoration: none;
 }
+
 #main-area .intro-section .info-section .image-area {
   margin-bottom: -4px;
   padding-right: 30px;
