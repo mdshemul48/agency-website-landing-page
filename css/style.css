@@ -207,4 +207,81 @@
 }
 /* =================== end guide area ============= */
 
+/* =========================== featured area ============ */
+
+#main-area .featured {
+  background-color: #f5fafe;
+}
+#main-area .featured .full-featured-area {
+  width: 80%;
+  margin: 100px auto;
+  padding: 100px 0;
+}
+#main-area .featured .full-featured-area .all-properties {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+
+#main-area .featured .featured-text {
+  font: normal 600 40px var(--poppins);
+  color: #000339;
+}
+
+#main-area .featured .description {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+#main-area .featured .description > p {
+  font: normal 400 20px var(--poppins);
+  color: #5a6473;
+  word-spacing: 2px;
+}
+
+#main-area .featured .description > a {
+  color: #0689ff;
+  text-decoration: none;
+  font: normal 600 20px var(--poppins);
+}
+
+#main-area .featured .show-section {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+#main-area .featured .show-section .property-row-section {
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+#main-area .featured .show-section .property-row-section > h3 {
+  font: normal 600 20px var(--poppins);
+}
+
+#main-area .featured .show-section .property-row-section > p {
+  font: normal 400 15px var(--poppins);
+  color: #a3a6ab;
+  margin: 10px 0;
+}
+
+#main-area .featured .show-section .property-row-section > .info {
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+}
+
+#main-area .featured .show-section .property-row-section > .info p {
+  font: normal 500 15px var(--poppins);
+  color: #444444;
+}
+#main-area .featured .show-section .property-row-section > .info .icons {
+  padding-right: 5px;
+  color: #0689ff;
+}
+/* =========================== featured area ============ */
+
 /* ================ main area end ==================================================== */
