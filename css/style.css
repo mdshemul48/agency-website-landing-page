@@ -327,6 +327,58 @@
   font: normal 400 15px var(--poppins);
   color: #7b8087;
 }
+
+#main-area .featured-properties {
+  margin: 270px auto;
+  width: 80%;
+}
 /* =========================== featured area ============ */
+#main-area .featured-properties {
+  background-color: #063183;
+  width: 60%;
+  border-radius: 15px;
+  padding: 100px 50px;
+}
+#main-area
+  > section.featured-properties
+  > .background-box
+  > div.featured-text
+  > h1 {
+  font: normal 500 35px var(--poppins);
+  color: white;
+  margin: 10px 0;
+}
+
+#main-area
+  > section.featured-properties
+  > .background-box
+  > div.featured-text
+  > p {
+  font: normal 200 15px var(--poppins);
+  color: white;
+  margin: 10px 0;
+}
+
+#main-area
+  > section.featured-properties
+  > .background-box
+  > div.featured-text
+  > .white-button {
+  margin: 10px 0;
+  font: normal 600 13px var(--poppins);
+  padding: 13px 20px;
+  border: none;
+  border-radius: 10px;
+  color: #002366;
+}
+
+#main-area > section.featured-properties > .background-box .phone-image {
+  position: absolute;
+  right: 350px;
+  top: 217rem;
+  transform: scale(1.05);
+}
+
+/* =========================== end featured area ============ */
 
 /* ================ main area end ==================================================== */
