@@ -282,6 +282,37 @@
   padding-right: 5px;
   color: #0689ff;
 }
+#main-area .neighborhood {
+  width: 80%;
+  margin: 0 auto;
+}
+#main-area .neighborhood .found {
+  display: flex;
+  margin: 20px 0;
+}
+#main-area .neighborhood .found img {
+  margin-left: 100px;
+}
+#main-area .neighborhood .found .message .simple-bar {
+  margin-top: 200px;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 3px;
+  background-color: #000339;
+  border-radius: 5px;
+}
+
+#main-area .neighborhood .found .message .main-title {
+  font: normal 700 35px var(--poppins);
+  width: 39%;
+}
+
+#main-area .neighborhood .found .message .main-paragraph {
+  font: normal 400 15px var(--poppins);
+  width: 360px;
+  color: #5a6473;
+}
+
 /* =========================== featured area ============ */
 
 /* ================ main area end ==================================================== */
