@@ -370,6 +370,7 @@
   border: none;
   border-radius: 10px;
   color: #002366;
+  cursor: pointer;
 }
 
 #main-area > section.featured-properties > .background-box .phone-image {
@@ -382,3 +383,40 @@
 /* =========================== end featured area ============ */
 
 /* ================ main area end ==================================================== */
+
+/* ================footer area================== */
+
+#footer-area {
+  margin-top: -100px;
+}
+
+#footer-area > .all-link {
+  margin-top: -500px;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+#footer-area > .all-link > div > h3 {
+  font: normal 700 20px var(--poppins);
+  margin-bottom: 30px;
+}
+
+#footer-area > .all-link > div > p,
+#footer-area > .all-link > div > a {
+  font: normal 400 15px var(--poppins);
+  color: #7a7a7e;
+}
+#footer-area > .all-link > div > a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+#footer-area > .all-link > .contact-area > .icons i {
+  margin: 20px;
+  padding: 15px 17px;
+  border-radius: 15px;
+  color: #646464;
+  background-color: #f9f9f9;
+} /* ================end footer area================== */
