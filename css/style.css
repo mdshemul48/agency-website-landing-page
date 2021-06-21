@@ -313,6 +313,20 @@
   color: #5a6473;
 }
 
+#main-area .neighborhood .sell-count > .all-counter {
+  display: flex;
+  width: 80%;
+  margin: -130px auto;
+  justify-content: space-between;
+}
+
+#main-area .neighborhood .sell-count > .all-counter .single-count > h1 {
+  font: normal 700 50px var(--poppins);
+}
+#main-area .neighborhood .sell-count > .all-counter .single-count > p {
+  font: normal 400 15px var(--poppins);
+  color: #7b8087;
+}
 /* =========================== featured area ============ */
 
 /* ================ main area end ==================================================== */
